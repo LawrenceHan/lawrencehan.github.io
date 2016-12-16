@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
-  <title>纸小墨官方博客</title>
-  <id>http://www.chole.io/blog</id>
-  <updated>2016-12-16T15:24:40+08:00</updated>
-  <subtitle>构建只为纯粹书写的博客</subtitle>
-  <link href="http://www.chole.io/blog"></link>
+  <title>Lawrence&#39;s Blog</title>
+  <id>https://lawrencehan.github.io</id>
+  <updated>2016-12-16T15:29:43+08:00</updated>
+  <subtitle>Seeking Excellent</subtitle>
+  <link href="https://lawrencehan.github.io"></link>
   <author>
-    <name>纸小墨官方博客</name>
+    <name>Lawrence&#39;s Blog</name>
   </author>
   <entry>
     <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
     <updated>2016-07-11T17:00:00+08:00</updated>
-    <id>tag:www.chole.io,2016-07-11:/blog/ink-blog-tool.html</id>
+    <id>tag:lawrencehan.github.io,2016-07-11:/ink-blog-tool.html</id>
     <content type="html">&lt;p&gt;纸小墨（InkPaper）是一个GO语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版。&lt;/p&gt;&#xA;</content>
-    <link href="http://www.chole.io/blog/ink-blog-tool.html"></link>
+    <link href="https://lawrencehan.github.io/ink-blog-tool.html"></link>
     <author>
-      <name>纸小墨</name>
+      <name>LawrenceHan</name>
     </author>
   </entry>
   <entry>
     <title>An Elegant Static Blog Generator —— InkPaper</title>
     <updated>2016-07-11T17:00:00+08:00</updated>
-    <id>tag:www.chole.io,2016-07-11:/blog/ink-blog-tool-en.html</id>
+    <id>tag:lawrencehan.github.io,2016-07-11:/ink-blog-tool-en.html</id>
     <content type="html">&lt;p&gt;InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme.&lt;/p&gt;&#xA;</content>
-    <link href="http://www.chole.io/blog/ink-blog-tool-en.html"></link>
+    <link href="https://lawrencehan.github.io/ink-blog-tool-en.html"></link>
     <author>
-      <name>纸小墨</name>
+      <name>LawrenceHan</name>
     </author>
   </entry>
 </feed>
