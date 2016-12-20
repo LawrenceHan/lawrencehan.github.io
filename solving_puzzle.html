@@ -75,6 +75,30 @@
                     <span class="tags"><a class="tag" href="/tag/%e7%ae%97%e6%b3%95/index.html">算法</a><a class="tag" href="/tag/%e5%a4%9a%e7%ba%bf%e7%a8%8b/index.html">多线程</a></span>
                 </section>
                 <article class="content"><h2>施工中。。。</h2>
+
+<pre><code class="language-objectivec">- (void)handleInviteSuccessWithInfo:(NSDictionary *)userInfo {
+    if (self.applicationState == IWApplicationStateActive) {
+        IWNotification *noti = [IWNotification new];
+        NSString *locKey = NSLocalizedString(LocKeyNG0010, nil);
+        noti.alertText = locKey;
+        [self showNotificationViewWith:noti];
+    }
+}
+</code></pre>
+
+<p>Space</p>
+
+<pre><code class="language-swift">public func drawTable() {
+        if stepResults.count &gt; 0 {
+            var results = &quot;&quot;
+            for steps in stepResults {
+                results = results.appending(&quot;Total routes count: \(routeCount), result: \(steps), total steps count: \(steps.characters.count)\n&quot;)
+            }
+        } else {
+            print(&quot;No results&quot;)
+        }
+    }
+</code></pre>
 </article>
                 <section class="author">
                     <div class="avatar" style="background-image: url(/images/avatar.png);"></div>
