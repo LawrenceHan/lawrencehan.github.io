@@ -44,28 +44,6 @@
     var root = '';
 </script>
 
-<script type="text/javascript">
-    var conn, reloadTimer, connectTimer;
-    var connect = function() {
-        conn = new WebSocket('ws://' + location.host + '/live');
-        conn.onmessage = function(event) {
-            if (event.data === 'change') {
-                if (reloadTimer) clearTimeout(reloadTimer);
-                reloadTimer = setTimeout(function() {
-                    window.location.reload();
-                }, 200);
-            }
-        };
-        conn.onclose = function() {
-            if (connectTimer) clearTimeout(connectTimer);
-            connectTimer = setTimeout(function() {
-                connect();
-            }, 1000);
-        };
-    };
-    connect();
-</script>
-
 
         <meta name="keywords" content="Seeking Excellent">
         <meta name="description" content="Seeking Excellent">
@@ -104,7 +82,7 @@
                             <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
                             <a class="name" href="/about.me.html">LawrenceHan</a>
                             
-                            <span class="date" data-time="1481796000"><span class="from"></span></span>
+                            <span class="date" data-time="1482903600"><span class="from"></span></span>
                             
                             <span class="tags">
                             <a class="tag" href="/tag/%e7%ae%97%e6%b3%95/index.html">算法</a><a class="tag" href="/tag/%e5%a4%9a%e7%ba%bf%e7%a8%8b/index.html">多线程</a>
